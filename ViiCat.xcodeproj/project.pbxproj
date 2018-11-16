@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566FBE6B219D4AB900B3EAC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBE6A219D4AB900B3EAC0 /* AppDelegate.m */; };
+		566FBE6E219D4AB900B3EAC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBE6D219D4AB900B3EAC0 /* ViewController.m */; };
+		566FBE71219D4AB900B3EAC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566FBE6F219D4AB900B3EAC0 /* Main.storyboard */; };
+		566FBE73219D4ABB00B3EAC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566FBE72219D4ABB00B3EAC0 /* Assets.xcassets */; };
+		566FBE76219D4ABB00B3EAC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566FBE74219D4ABB00B3EAC0 /* LaunchScreen.storyboard */; };
+		566FBE79219D4ABB00B3EAC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBE78219D4ABB00B3EAC0 /* main.m */; };
+		566FBE83219D4ABB00B3EAC0 /* ViiCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBE82219D4ABB00B3EAC0 /* ViiCatTests.m */; };
+		566FBE8E219D4ABB00B3EAC0 /* ViiCatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBE8D219D4ABB00B3EAC0 /* ViiCatUITests.m */; };
+		566FBEA0219D4BED00B3EAC0 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBE9F219D4BED00B3EAC0 /* TabBarController.m */; };
+		566FBEA5219D4CE100B3EAC0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBEA3219D4CE100B3EAC0 /* HomeViewController.m */; };
+		566FBEA6219D4CE100B3EAC0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 566FBEA4219D4CE100B3EAC0 /* HomeViewController.xib */; };
+		566FBEAB219D4D4000B3EAC0 /* ListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBEAA219D4D4000B3EAC0 /* ListItemModel.m */; };
+		566FBEAF219D4DB600B3EAC0 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBEAD219D4DB600B3EAC0 /* HomeTableViewCell.m */; };
+		566FBEB0219D4DB600B3EAC0 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 566FBEAE219D4DB600B3EAC0 /* HomeTableViewCell.xib */; };
+		566FBEB8219D64BD00B3EAC0 /* VisualBlurEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 566FBEB2219D64BD00B3EAC0 /* VisualBlurEffectViewController.xib */; };
+		566FBEB9219D64BD00B3EAC0 /* CAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBEB3219D64BD00B3EAC0 /* CAShapeLayerViewController.m */; };
+		566FBEBA219D64BD00B3EAC0 /* VisualBlurEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBEB5219D64BD00B3EAC0 /* VisualBlurEffectViewController.m */; };
+		566FBEBB219D64BD00B3EAC0 /* CAShapeLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 566FBEB6219D64BD00B3EAC0 /* CAShapeLayerViewController.xib */; };
+		566FBEBF219DD91700B3EAC0 /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 566FBEBE219DD91700B3EAC0 /* UIViewController+Category.m */; };
+		7666E08F467FE47B2EFB0B7E /* Pods_ViiCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F409EE0E1AC888EE6D4C5D6 /* Pods_ViiCat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		566FBE7F219D4ABB00B3EAC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 566FBE5E219D4AB900B3EAC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566FBE65219D4AB900B3EAC0;
+			remoteInfo = ViiCat;
+		};
+		566FBE8A219D4ABB00B3EAC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 566FBE5E219D4AB900B3EAC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566FBE65219D4AB900B3EAC0;
+			remoteInfo = ViiCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03032EAB6D7F2D31D84216C7 /* Pods-ViiCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViiCat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViiCat/Pods-ViiCat.release.xcconfig"; sourceTree = "<group>"; };
+		566FBE66219D4AB900B3EAC0 /* ViiCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViiCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		566FBE69219D4AB900B3EAC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		566FBE6A219D4AB900B3EAC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		566FBE6C219D4AB900B3EAC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		566FBE6D219D4AB900B3EAC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		566FBE70219D4AB900B3EAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		566FBE72219D4ABB00B3EAC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		566FBE75219D4ABB00B3EAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		566FBE77219D4ABB00B3EAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566FBE78219D4ABB00B3EAC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		566FBE7E219D4ABB00B3EAC0 /* ViiCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViiCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566FBE82219D4ABB00B3EAC0 /* ViiCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViiCatTests.m; sourceTree = "<group>"; };
+		566FBE84219D4ABB00B3EAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566FBE89219D4ABB00B3EAC0 /* ViiCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViiCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566FBE8D219D4ABB00B3EAC0 /* ViiCatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViiCatUITests.m; sourceTree = "<group>"; };
+		566FBE8F219D4ABB00B3EAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566FBE9E219D4BED00B3EAC0 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		566FBE9F219D4BED00B3EAC0 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		566FBEA2219D4CE100B3EAC0 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		566FBEA3219D4CE100B3EAC0 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		566FBEA4219D4CE100B3EAC0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		566FBEA9219D4D4000B3EAC0 /* ListItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListItemModel.h; sourceTree = "<group>"; };
+		566FBEAA219D4D4000B3EAC0 /* ListItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListItemModel.m; sourceTree = "<group>"; };
+		566FBEAC219D4DB600B3EAC0 /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		566FBEAD219D4DB600B3EAC0 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		566FBEAE219D4DB600B3EAC0 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		566FBEB2219D64BD00B3EAC0 /* VisualBlurEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisualBlurEffectViewController.xib; sourceTree = "<group>"; };
+		566FBEB3219D64BD00B3EAC0 /* CAShapeLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerViewController.m; sourceTree = "<group>"; };
+		566FBEB4219D64BD00B3EAC0 /* CAShapeLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerViewController.h; sourceTree = "<group>"; };
+		566FBEB5219D64BD00B3EAC0 /* VisualBlurEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualBlurEffectViewController.m; sourceTree = "<group>"; };
+		566FBEB6219D64BD00B3EAC0 /* CAShapeLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAShapeLayerViewController.xib; sourceTree = "<group>"; };
+		566FBEB7219D64BD00B3EAC0 /* VisualBlurEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualBlurEffectViewController.h; sourceTree = "<group>"; };
+		566FBEBD219DD91700B3EAC0 /* UIViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
+		566FBEBE219DD91700B3EAC0 /* UIViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		8528BD0C14D6141A4CAF658C /* Pods-ViiCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViiCat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViiCat/Pods-ViiCat.debug.xcconfig"; sourceTree = "<group>"; };
+		9F409EE0E1AC888EE6D4C5D6 /* Pods_ViiCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViiCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		566FBE63219D4AB900B3EAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7666E08F467FE47B2EFB0B7E /* Pods_ViiCat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566FBE7B219D4ABB00B3EAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566FBE86219D4ABB00B3EAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078B88A43380C2E29F2BCF80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8528BD0C14D6141A4CAF658C /* Pods-ViiCat.debug.xcconfig */,
+				03032EAB6D7F2D31D84216C7 /* Pods-ViiCat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		434EA5C276E83101AC1061E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F409EE0E1AC888EE6D4C5D6 /* Pods_ViiCat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		566FBE5D219D4AB900B3EAC0 = {
+			isa = PBXGroup;
+			children = (
+				566FBE68219D4AB900B3EAC0 /* ViiCat */,
+				566FBE81219D4ABB00B3EAC0 /* ViiCatTests */,
+				566FBE8C219D4ABB00B3EAC0 /* ViiCatUITests */,
+				566FBE67219D4AB900B3EAC0 /* Products */,
+				078B88A43380C2E29F2BCF80 /* Pods */,
+				434EA5C276E83101AC1061E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		566FBE67219D4AB900B3EAC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566FBE66219D4AB900B3EAC0 /* ViiCat.app */,
+				566FBE7E219D4ABB00B3EAC0 /* ViiCatTests.xctest */,
+				566FBE89219D4ABB00B3EAC0 /* ViiCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		566FBE68219D4AB900B3EAC0 /* ViiCat */ = {
+			isa = PBXGroup;
+			children = (
+				566FBEBC219DD88800B3EAC0 /* Category */,
+				566FBEB1219D63F900B3EAC0 /* Pages */,
+				566FBEA1219D4CBA00B3EAC0 /* Home */,
+				566FBE69219D4AB900B3EAC0 /* AppDelegate.h */,
+				566FBE6A219D4AB900B3EAC0 /* AppDelegate.m */,
+				566FBE6C219D4AB900B3EAC0 /* ViewController.h */,
+				566FBE6D219D4AB900B3EAC0 /* ViewController.m */,
+				566FBE6F219D4AB900B3EAC0 /* Main.storyboard */,
+				566FBE72219D4ABB00B3EAC0 /* Assets.xcassets */,
+				566FBE74219D4ABB00B3EAC0 /* LaunchScreen.storyboard */,
+				566FBE77219D4ABB00B3EAC0 /* Info.plist */,
+				566FBE78219D4ABB00B3EAC0 /* main.m */,
+				566FBE9E219D4BED00B3EAC0 /* TabBarController.h */,
+				566FBE9F219D4BED00B3EAC0 /* TabBarController.m */,
+			);
+			path = ViiCat;
+			sourceTree = "<group>";
+		};
+		566FBE81219D4ABB00B3EAC0 /* ViiCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				566FBE82219D4ABB00B3EAC0 /* ViiCatTests.m */,
+				566FBE84219D4ABB00B3EAC0 /* Info.plist */,
+			);
+			path = ViiCatTests;
+			sourceTree = "<group>";
+		};
+		566FBE8C219D4ABB00B3EAC0 /* ViiCatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				566FBE8D219D4ABB00B3EAC0 /* ViiCatUITests.m */,
+				566FBE8F219D4ABB00B3EAC0 /* Info.plist */,
+			);
+			path = ViiCatUITests;
+			sourceTree = "<group>";
+		};
+		566FBEA1219D4CBA00B3EAC0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				566FBEA8219D4CFB00B3EAC0 /* Model */,
+				566FBEA7219D4CEA00B3EAC0 /* View */,
+				566FBEA2219D4CE100B3EAC0 /* HomeViewController.h */,
+				566FBEA3219D4CE100B3EAC0 /* HomeViewController.m */,
+				566FBEA4219D4CE100B3EAC0 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		566FBEA7219D4CEA00B3EAC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				566FBEAC219D4DB600B3EAC0 /* HomeTableViewCell.h */,
+				566FBEAD219D4DB600B3EAC0 /* HomeTableViewCell.m */,
+				566FBEAE219D4DB600B3EAC0 /* HomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		566FBEA8219D4CFB00B3EAC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				566FBEA9219D4D4000B3EAC0 /* ListItemModel.h */,
+				566FBEAA219D4D4000B3EAC0 /* ListItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		566FBEB1219D63F900B3EAC0 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				566FBEB4219D64BD00B3EAC0 /* CAShapeLayerViewController.h */,
+				566FBEB3219D64BD00B3EAC0 /* CAShapeLayerViewController.m */,
+				566FBEB6219D64BD00B3EAC0 /* CAShapeLayerViewController.xib */,
+				566FBEB7219D64BD00B3EAC0 /* VisualBlurEffectViewController.h */,
+				566FBEB5219D64BD00B3EAC0 /* VisualBlurEffectViewController.m */,
+				566FBEB2219D64BD00B3EAC0 /* VisualBlurEffectViewController.xib */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		566FBEBC219DD88800B3EAC0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				566FBEBD219DD91700B3EAC0 /* UIViewController+Category.h */,
+				566FBEBE219DD91700B3EAC0 /* UIViewController+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		566FBE65219D4AB900B3EAC0 /* ViiCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566FBE92219D4ABB00B3EAC0 /* Build configuration list for PBXNativeTarget "ViiCat" */;
+			buildPhases = (
+				BDD9FAF6FC7965F1E6A55089 /* [CP] Check Pods Manifest.lock */,
+				566FBE62219D4AB900B3EAC0 /* Sources */,
+				566FBE63219D4AB900B3EAC0 /* Frameworks */,
+				566FBE64219D4AB900B3EAC0 /* Resources */,
+				5043CD2672DE8BF744D7A395 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViiCat;
+			productName = ViiCat;
+			productReference = 566FBE66219D4AB900B3EAC0 /* ViiCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		566FBE7D219D4ABB00B3EAC0 /* ViiCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566FBE95219D4ABB00B3EAC0 /* Build configuration list for PBXNativeTarget "ViiCatTests" */;
+			buildPhases = (
+				566FBE7A219D4ABB00B3EAC0 /* Sources */,
+				566FBE7B219D4ABB00B3EAC0 /* Frameworks */,
+				566FBE7C219D4ABB00B3EAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566FBE80219D4ABB00B3EAC0 /* PBXTargetDependency */,
+			);
+			name = ViiCatTests;
+			productName = ViiCatTests;
+			productReference = 566FBE7E219D4ABB00B3EAC0 /* ViiCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		566FBE88219D4ABB00B3EAC0 /* ViiCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566FBE98219D4ABB00B3EAC0 /* Build configuration list for PBXNativeTarget "ViiCatUITests" */;
+			buildPhases = (
+				566FBE85219D4ABB00B3EAC0 /* Sources */,
+				566FBE86219D4ABB00B3EAC0 /* Frameworks */,
+				566FBE87219D4ABB00B3EAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566FBE8B219D4ABB00B3EAC0 /* PBXTargetDependency */,
+			);
+			name = ViiCatUITests;
+			productName = ViiCatUITests;
+			productReference = 566FBE89219D4ABB00B3EAC0 /* ViiCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		566FBE5E219D4AB900B3EAC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JasonMark;
+				TargetAttributes = {
+					566FBE65219D4AB900B3EAC0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					566FBE7D219D4ABB00B3EAC0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 566FBE65219D4AB900B3EAC0;
+					};
+					566FBE88219D4ABB00B3EAC0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 566FBE65219D4AB900B3EAC0;
+					};
+				};
+			};
+			buildConfigurationList = 566FBE61219D4AB900B3EAC0 /* Build configuration list for PBXProject "ViiCat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 566FBE5D219D4AB900B3EAC0;
+			productRefGroup = 566FBE67219D4AB900B3EAC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566FBE65219D4AB900B3EAC0 /* ViiCat */,
+				566FBE7D219D4ABB00B3EAC0 /* ViiCatTests */,
+				566FBE88219D4ABB00B3EAC0 /* ViiCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566FBE64219D4AB900B3EAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566FBEB8219D64BD00B3EAC0 /* VisualBlurEffectViewController.xib in Resources */,
+				566FBE76219D4ABB00B3EAC0 /* LaunchScreen.storyboard in Resources */,
+				566FBE73219D4ABB00B3EAC0 /* Assets.xcassets in Resources */,
+				566FBE71219D4AB900B3EAC0 /* Main.storyboard in Resources */,
+				566FBEB0219D4DB600B3EAC0 /* HomeTableViewCell.xib in Resources */,
+				566FBEBB219D64BD00B3EAC0 /* CAShapeLayerViewController.xib in Resources */,
+				566FBEA6219D4CE100B3EAC0 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566FBE7C219D4ABB00B3EAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566FBE87219D4ABB00B3EAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5043CD2672DE8BF744D7A395 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViiCat/Pods-ViiCat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViiCat/Pods-ViiCat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD9FAF6FC7965F1E6A55089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViiCat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566FBE62219D4AB900B3EAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566FBEB9219D64BD00B3EAC0 /* CAShapeLayerViewController.m in Sources */,
+				566FBE6E219D4AB900B3EAC0 /* ViewController.m in Sources */,
+				566FBEBF219DD91700B3EAC0 /* UIViewController+Category.m in Sources */,
+				566FBEA0219D4BED00B3EAC0 /* TabBarController.m in Sources */,
+				566FBEAB219D4D4000B3EAC0 /* ListItemModel.m in Sources */,
+				566FBE79219D4ABB00B3EAC0 /* main.m in Sources */,
+				566FBEAF219D4DB600B3EAC0 /* HomeTableViewCell.m in Sources */,
+				566FBEA5219D4CE100B3EAC0 /* HomeViewController.m in Sources */,
+				566FBEBA219D64BD00B3EAC0 /* VisualBlurEffectViewController.m in Sources */,
+				566FBE6B219D4AB900B3EAC0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566FBE7A219D4ABB00B3EAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566FBE83219D4ABB00B3EAC0 /* ViiCatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566FBE85219D4ABB00B3EAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566FBE8E219D4ABB00B3EAC0 /* ViiCatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		566FBE80219D4ABB00B3EAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566FBE65219D4AB900B3EAC0 /* ViiCat */;
+			targetProxy = 566FBE7F219D4ABB00B3EAC0 /* PBXContainerItemProxy */;
+		};
+		566FBE8B219D4ABB00B3EAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566FBE65219D4AB900B3EAC0 /* ViiCat */;
+			targetProxy = 566FBE8A219D4ABB00B3EAC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		566FBE6F219D4AB900B3EAC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566FBE70219D4AB900B3EAC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		566FBE74219D4ABB00B3EAC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566FBE75219D4ABB00B3EAC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		566FBE90219D4ABB00B3EAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		566FBE91219D4ABB00B3EAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		566FBE93219D4ABB00B3EAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8528BD0C14D6141A4CAF658C /* Pods-ViiCat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ViiCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viicat.ViiCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		566FBE94219D4ABB00B3EAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03032EAB6D7F2D31D84216C7 /* Pods-ViiCat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ViiCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viicat.ViiCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		566FBE96219D4ABB00B3EAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViiCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viicat.ViiCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViiCat.app/ViiCat";
+			};
+			name = Debug;
+		};
+		566FBE97219D4ABB00B3EAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViiCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viicat.ViiCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViiCat.app/ViiCat";
+			};
+			name = Release;
+		};
+		566FBE99219D4ABB00B3EAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViiCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viicat.ViiCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViiCat;
+			};
+			name = Debug;
+		};
+		566FBE9A219D4ABB00B3EAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViiCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viicat.ViiCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViiCat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		566FBE61219D4AB900B3EAC0 /* Build configuration list for PBXProject "ViiCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566FBE90219D4ABB00B3EAC0 /* Debug */,
+				566FBE91219D4ABB00B3EAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566FBE92219D4ABB00B3EAC0 /* Build configuration list for PBXNativeTarget "ViiCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566FBE93219D4ABB00B3EAC0 /* Debug */,
+				566FBE94219D4ABB00B3EAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566FBE95219D4ABB00B3EAC0 /* Build configuration list for PBXNativeTarget "ViiCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566FBE96219D4ABB00B3EAC0 /* Debug */,
+				566FBE97219D4ABB00B3EAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566FBE98219D4ABB00B3EAC0 /* Build configuration list for PBXNativeTarget "ViiCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566FBE99219D4ABB00B3EAC0 /* Debug */,
+				566FBE9A219D4ABB00B3EAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 566FBE5E219D4AB900B3EAC0 /* Project object */;
+}
